@@ -14,7 +14,7 @@ import { BrowserRouter } from 'react-router-dom';
 // import { InjectedConnector } from 'wagmi/connectors/injected'
 // import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
 // import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
-import { SSRProvider } from 'react-aria'
+// import { SSRProvider } from 'react-aria'
 
 // const { provider, webSocketProvider, chains } = configureChains(
 //   [mainnet],
@@ -60,7 +60,7 @@ import { SSRProvider } from 'react-aria'
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <SSRProvider>
+      {/* <SSRProvider> */}
         {/* <WagmiConfig client={client}> */}
           {/* <MoralisProvider appId="ny6Iude7WFwg2QaZtvDK7zQC81e9uKRIeaCkFNxM" serverUrl="https://htogiwbd7il5.usemoralis.com:2053/server"> */}
 
@@ -69,7 +69,7 @@ ReactDOM.render(
 
           {/* </MoralisProvider> */}
         {/* </WagmiConfig> */}
-      </SSRProvider>
+      {/* </SSRProvider> */}
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
