@@ -13,8 +13,7 @@ import Home from "./sections/Home";
 import Marquee from "./sections/Marquee";
 import NewArrival from "./sections/NewArrival";
 import Shop from "./sections/Shop";
-
-// import {GlobalStyles} from './styles/GlobalStyles'
+import GlobalStyles from "./styles/globalStyles";
 import { dark } from "./styles/Themes";
 
 function App() {
@@ -30,7 +29,7 @@ function App() {
 
   return (
     <>
-      {/* <GlobalStyles /> */}
+      <GlobalStyles />
       <ThemeProvider theme={dark}>
         <LocomotiveScrollProvider
           options={{
