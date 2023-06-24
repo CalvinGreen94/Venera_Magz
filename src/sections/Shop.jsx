@@ -216,16 +216,16 @@ const Shop = () => {
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img2} title="Sweatshirts" />
-        <Product img={img2} title="Ethnic Wear" />
-        <Product img={img2} title="Man Basics" />
-        <Product img={img2} title="Tops" />
-        <Product img={img2} title="Blazers" />
-        <Product img={img2} title="Suits" />
-        <Product img={img2} title="Antiques" />
-        <Product img={img2} title="Jewellery" />
-        <Product img={img2} title="Watches" />
-        <Product img={img2} title="Special Edition" />
+        <Product img={img2} title="Ecem" />
+        <Product img={img2} title="Ecem" />
+        <Product img={img2} title="Ecem" />
+        <Product img={img2} title="Ecem" />
+        <Product img={img2} title="Ecem" />
+        <Product img={img2} title="Ecem" />
+        <Product img={img2} title="Ecem" />
+        <Product img={img2} title="Ecem" />
+        <Product img={img2} title="Ecem" />
+        <Product img={img2} title="Ecem" />
       </Right>
     </Section>
   );
