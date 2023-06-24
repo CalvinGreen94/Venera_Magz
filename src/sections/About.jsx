@@ -108,30 +108,30 @@ const Right = styled.div`
   }
 `;
 
-const Title = styled.h1`
-  font-size: ${(props) => props.theme.fontBig};
-  font-family: "Sirin Stencil";
-  font-weight: 300;
-  /* text-transform: capitalize; */
+// const Title = styled.h1`
+//   font-size: ${(props) => props.theme.fontBig};
+//   font-family: "Sirin Stencil";
+//   font-weight: 300;
+//   /* text-transform: capitalize; */
 
-  position: absolute;
-  top: 1rem;
-  left: 5%;
-  z-index: 5;
+//   position: absolute;
+//   top: 1rem;
+//   left: 5%;
+//   z-index: 5;
 
-  span {
-    display: inline-block;
-  }
+//   span {
+//     display: inline-block;
+//   }
 
-  @media (max-width: 64em) {
-    font-size: ${(props) => `calc(${props.theme.fontBig} - 5vw)`};
-    top: 0;
-    left: 0%;
-  }
-  @media (max-width: 48em) {
-    font-size: ${(props) => props.theme.fontxxxl};
-  }
-`;
+//   @media (max-width: 64em) {
+//     font-size: ${(props) => `calc(${props.theme.fontBig} - 5vw)`};
+//     top: 0;
+//     left: 0%;
+//   }
+//   @media (max-width: 48em) {
+//     font-size: ${(props) => props.theme.fontxxxl};
+//   }
+// `;
 
 const About = () => {
   return (
