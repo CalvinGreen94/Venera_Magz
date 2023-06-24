@@ -136,13 +136,14 @@ const Title = styled.h1`
 const About = () => {
   return (
     <Section id="fixed-target" className="about">
-      <Title
+      {/* <Title
         data-scroll
         data-scroll-speed="-2"
         data-scroll-direction="horizontal"
       >
         About Us
-      </Title>
+      </Title> */}
+      <br />
       <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
       Welcome to Venera Erotica Magazine! We are a web3 magazine that explores and celebrates the world of dark arts and eroticism. Our mission is to provide our readers with an unprecedented level of creativity, insight, and exploration into the depths of human experience.  
         <br />
