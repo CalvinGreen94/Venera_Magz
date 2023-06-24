@@ -34,7 +34,7 @@ const Container = styled.div`
 
 const Banner = styled.h1`
   font-size: ${(props) => props.theme.fontxxxl};
-  font-family: 'Kaushan Script';
+  font-family: 'Sirin Stencil';
   color: ${(props) => props.theme.text};
   /* position: absolute; */
   white-space: nowrap;
@@ -77,7 +77,7 @@ const Marquee = () => {
             data-scroll-speed="8"
             data-scroll-target="#direction"
           >
-            Fashon is an armour
+            Dark Art is not about embracing the shadows,
           </span>
         </Banner>
         <Banner data-scroll data-scroll-speed="-2" data-scroll-target="#direction">
@@ -87,7 +87,7 @@ const Marquee = () => {
             data-scroll-speed="-6"
             data-scroll-target="#direction"
           >
-            To survive everyday life
+            but exploring the beauty 
           </span>
         </Banner>
         <Banner>
@@ -97,7 +97,7 @@ const Marquee = () => {
             data-scroll-speed="6"
             data-scroll-target="#direction"
           >
-            One is never over-dressed or
+           of the erotic within them.
           </span>
         </Banner>
         <Banner>

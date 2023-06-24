@@ -110,7 +110,7 @@ const Right = styled.div`
 
 const Title = styled.h1`
   font-size: ${(props) => props.theme.fontBig};
-  font-family: "Kaushan Script";
+  font-family: "Sirin Stencil";
   font-weight: 300;
   /* text-transform: capitalize; */
 
@@ -144,25 +144,18 @@ const About = () => {
         About Us
       </Title>
       <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-        We&apos;re fashion studio based in california. We create unique designs
-        that will blow your mind. We also design unique jewellary pieces.
-        Fashion is an ART that can not be grasped by everyone.
+      Welcome to Venera Erotica Magazine! We are a web3 magazine that explores and celebrates the world of dark arts and eroticism. Our mission is to provide our readers with an unprecedented level of creativity, insight, and exploration into the depths of human experience.  
         <br />
         <br />
-        We are very dedicated to making our products. We offer unique and
-        creative products to a wide range of people. We have a variety of
-        styles, but for most people, all of the options are in the box. We
-        specialize in making things that make you happy.
+        We are dedicated to bringing our readers stories, art, film, and other mediums from a variety of dark arts and erotic genres. Our content is designed to entertain and educate, while also helping to redefine the boundaries of sexual expression. At Venera Erotica Magazine, we strive to provide a safe space for all of our readers to explore their sexuality and artistry.
         <br />
         <br />
-        We strive to build on our vision. As a fashion label, we do our best to
-        create amazing experiences for all people. We are always looking to make
-        something that is easy for everyone.
+        Our editorial team is committed to providing quality content that is engaging, thought-provoking, and entertaining. We invite you to join us in our exploration and celebration of the dark arts and eroticism. Thank you for your interest in Venera Erotica Magazine.
       </Left>
 
       <Right>
-        <img width="400" height="600" src={img1} alt="About Us" />
-        <img
+        {/* <img width="400" height="600" src={img1} alt="About Us" /> */}
+        {/* <img
           width="400"
           height="600"
           className="small-img-1"
@@ -170,12 +163,12 @@ const About = () => {
           alt="About Us"
           data-scroll
           data-scroll-speed="5"
-        />
+        /> */}
         <img
           width="400"
           height="600"
           className="small-img-2"
-          src={img3}
+          src={img2}
           alt="About Us"
           data-scroll
           data-scroll-speed="-2"

@@ -4,7 +4,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 import React, {  useLayoutEffect, useRef } from 'react';
 import styled from 'styled-components';
 
-import img1 from '../assets/Images/11.webp';
+import img1 from '../assets/Images/2.webp';
 import img2 from '../assets/Images/12.webp';
 import img3 from '../assets/Images/13.webp';
 import img4 from '../assets/Images/14.webp';
@@ -91,7 +91,7 @@ const Container = styled.div`
 
 const Title = styled(motion.h1)`
   font-size: ${(props) => props.theme.fontxxxl};
-  font-family: 'Kaushan Script';
+  font-family: 'Sirin Stencil';
   font-weight: 300;
   /* text-transform: capitalize; */
   color: ${(props) => props.theme.body};
@@ -218,28 +218,25 @@ let t1= gsap.timeline();
       <Title
         data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal"
       >
-        New Arrivals
+        Artist Spotlight
       </Title>
 
       <Container ref={ScrollingRef}>
-        <Photos img={img1} name="Denim" />
-        <Photos img={img2} name="Cool Dresses" />
-        <Photos img={img3} name="Jackets" />
-        <Photos img={img4} name="T-shirts" />
+        <Photos img={img1} name="Ecem" />
+        <Photos img={img1} name="Ecem" />
+        <Photos img={img1} name="Ecem" />
+        <Photos img={img1} name="Ecem" />
       </Container>
 
-      <Text data-scroll data-scroll-speed="-4">
-        There is new collection available for cool clothes in all sizes. This collection
-        is a great way to find a new look for you. It offers a variety of cool apparel
-        styles to fit your taste, while you can also find some cool clothes that you can
-        wear everyday.
+      <Text>
+      Ecem is a sophisticated 3D and 2D digital artist with a great background in Blender and an NFT curator / collector on Tezos and Ethereum. <br />She has a passion for creating unique and innovative art pieces that are both visually stunning and technically impressive. Her work has been featured in various online galleries and publications. 
+
         <br />
         <br />
-        The first line of clothing you will see on this collection is for men. The
-        collection also includes three new styles for women.
+        Her art pieces are often inspired by her own experiences and the world around her, and she is constantly pushing the boundaries of what is possible with digital art. She is also an avid NFT collector, curating her own collection of rare and unique pieces from the Tezos and Ethereum blockchain. She is passionate about the potential of NFTs and the possibilities they bring to the art world, and is always looking for new and exciting ways to use them.
         <br />
         <br />
-        Give it a try and experience a new look.
+        Truly, a force to be reckoned with.
       </Text>
     </Section>
   );

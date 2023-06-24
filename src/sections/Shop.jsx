@@ -33,7 +33,7 @@ const Section = styled(motion.section)`
 
 const Title = styled.h1`
   font-size: ${(props) => props.theme.fontxxxl};
-  font-family: "Kaushan Script";
+  font-family: "Sirin Stencil";
   font-weight: 300;
   /* text-transform: capitalize; */
   color: ${(props) => props.theme.text};
@@ -197,33 +197,35 @@ const Shop = () => {
   return (
     <Section ref={ref} id="shop">
       <Title data-scroll data-scroll-speed="-1">
-        New Collection
+       
       </Title>
+      <br />
       <Left>
+      <br />
+      <br />
         <p>
-          The brand new collection is currently being developed in USA. We
-          create our products using best quality material, including the use of
-          some of the pure fabrics to make our products. All products are made
-          using the best materials, from the finest cotton to the finest
-          fabrics.
-          <br /> <br />
-          We have lots of different clothing options like shoes, jackets and
-          dresses. Not only clothes but we also provide unique Jewellery as
-          well. It is great for us to carry our new clothes all around the
-          country and look different.
+          Open Editions
+
+          <br />
+          <br />
+          {/* Her art pieces are often inspired by her own experiences and the world around her, and she is constantly pushing the boundaries of what is possible with digital art. She is also an avid NFT collector, curating her own collection of rare and unique pieces from the Tezos and Ethereum blockchain. She is passionate about the potential of NFTs and the possibilities they bring to the art world, and is always looking for new and exciting ways to use them. */}
+          <br />
+          <br />
+          Purchase these open editions
+          {/* Truly, a force to be reckoned with. */}
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img3} title="Sweatshirts" />
-        <Product img={img4} title="Ethnic Wear" />
-        <Product img={img1} title="Man Basics" />
+        <Product img={img2} title="Sweatshirts" />
+        <Product img={img2} title="Ethnic Wear" />
+        <Product img={img2} title="Man Basics" />
         <Product img={img2} title="Tops" />
-        <Product img={img5} title="Blazers" />
-        <Product img={img6} title="Suits" />
-        <Product img={img7} title="Antiques" />
-        <Product img={img8} title="Jewellery" />
-        <Product img={img9} title="Watches" />
-        <Product img={img10} title="Special Edition" />
+        <Product img={img2} title="Blazers" />
+        <Product img={img2} title="Suits" />
+        <Product img={img2} title="Antiques" />
+        <Product img={img2} title="Jewellery" />
+        <Product img={img2} title="Watches" />
+        <Product img={img2} title="Special Edition" />
       </Right>
     </Section>
   );

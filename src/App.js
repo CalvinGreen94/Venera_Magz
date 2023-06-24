@@ -13,6 +13,7 @@ import Home from "./sections/Home";
 import Marquee from "./sections/Marquee";
 import NewArrival from "./sections/NewArrival";
 import Shop from "./sections/Shop";
+
 import GlobalStyles from "./styles/GlobalStyles";
 import { dark } from "./styles/Themes";
 

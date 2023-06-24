@@ -52,7 +52,7 @@ const Title = styled(motion.div)`
   }
 
   h1 {
-    font-family: "Kaushan Script";
+    font-family: "Sirin Stencil";
     font-size: ${(props) => props.theme.fontBig};
 
     text-shadow: 1px 1px 1px ${(props) => props.theme.body};
@@ -108,7 +108,7 @@ const CoverVideo = () => {
             data-scroll-delay="0.13"
             data-scroll-speed="4"
           >
-            W
+            V
           </motion.h1>
           <motion.h1
             variants={item}
@@ -116,7 +116,7 @@ const CoverVideo = () => {
             data-scroll-delay="0.09"
             data-scroll-speed="4"
           >
-            i
+            E
           </motion.h1>
           <motion.h1
             variants={item}
@@ -124,7 +124,7 @@ const CoverVideo = () => {
             data-scroll-delay="0.06"
             data-scroll-speed="4"
           >
-            b
+            N
           </motion.h1>
           <motion.h1
             variants={item}
@@ -132,7 +132,87 @@ const CoverVideo = () => {
             data-scroll-delay="0.04"
             data-scroll-speed="4"
           >
-            e
+            E
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="4"
+          >
+            R
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="4"
+          >
+            A
+          </motion.h1>
+          {/* <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="4"
+          >
+            -
+          </motion.h1> */}
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="4"
+          >
+            -E
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="4"
+          >
+            R
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="4"
+          >
+            O
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="4"
+          >
+            T
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="4"
+          >
+            I
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="4"
+          >
+            C
+          </motion.h1>
+          <motion.h1
+            variants={item}
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="4"
+          >
+            A
           </motion.h1>
         </div>
         <motion.h2

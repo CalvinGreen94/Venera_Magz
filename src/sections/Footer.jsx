@@ -3,7 +3,7 @@ import React from "react";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
 import styled from "styled-components";
 
-import Logo from "../assets/Svgs/star_white_48dp.svg";
+// import Logo from "../assets/Svgs/11.svg";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -35,7 +35,7 @@ const LogoContainer = styled.div`
   }
 
   h3 {
-    font-family: "Kaushan Script";
+    font-family: "Sirin Stencil";
     font-size: ${(props) => props.theme.fontxxl};
 
     @media (max-width: 48em) {
@@ -126,16 +126,16 @@ const Footer = () => {
   return (
     <Section>
       <LogoContainer>
-        <img
+        {/* <img
           width="300"
           height="300"
           src={Logo}
-          alt="Wibe"
+          alt="$VeN"
           data-scroll
           data-scroll-speed="2"
-        />
+        /> */}
         <h3 data-scroll data-scroll-speed="-1">
-          Wibe Studio
+          Venera Erotica Magazine
         </h3>
       </LogoContainer>
       <FooterComponent
@@ -157,9 +157,9 @@ const Footer = () => {
             shop
           </li>
           <li aria-hidden="true" onClick={() => handleScroll(".new-arrival")}>
-            new arrival
+            Artist Spotlight
           </li>
-          <li>
+          {/* <li>
             <a href="https://google.com" target={"_blank"} rel="noreferrer">
               look book
             </a>
@@ -168,7 +168,7 @@ const Footer = () => {
             <a href="https://google.com" target={"_blank"} rel="noreferrer">
               reviews
             </a>
-          </li>
+          </li> */}
         </ul>
         <Bottom>
           <span
@@ -176,20 +176,20 @@ const Footer = () => {
             data-scroll-speed="2"
             data-scroll-direction="horizontal"
           >
-            &copy; 2022. All Rights Reserved.
+            &copy; 2023. All Rights Reserved.
           </span>
           <span
             data-scroll
             data-scroll-speed="-2"
             data-scroll-direction="horizontal"
           >
-            Made with &hearts; by{" "}
+            Optimized with &hearts; by{" "}
             <a
-              href="http://devdreaming.com"
+              href="https://twitter.com/VeneraSolutions"
               target={"_blank"}
               rel="dofollow noreferrer"
             >
-              CodeBucks
+              Venera Solutions
             </a>
           </span>
         </Bottom>
