@@ -15,7 +15,7 @@ import NewArrival from "./sections/NewArrival";
 import Shop from "./sections/Shop";
 
 import GlobalStyles from "./styles/globalStyles";
-import { dark } from "./styles/themes";
+import { dark } from "./styles/Themes";
 
 function App() {
   // useLocoScroll();
