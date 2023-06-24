@@ -204,7 +204,7 @@ const Shop = () => {
       <br />
       <br />
         <p>
-          Open Editions
+          Collect Open Editions
 
           <br />
           <br />
