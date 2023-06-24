@@ -45,22 +45,22 @@ overflow: hidden;
   }
 `;
 
-const pathVariants = {
-  hidden: {
-    opacity: 0,
-    pathLength: 0,
-  },
-  visible: {
-    opacity: 1,
-    pathLength: 1,
+// const pathVariants = {
+//   hidden: {
+//     opacity: 0,
+//     pathLength: 0,
+//   },
+//   visible: {
+//     opacity: 1,
+//     pathLength: 1,
 
-    transition: {
-      duration: 2,
-      // yoyo: Infinity,
-      ease: 'easeInOut',
-    },
-  },
-};
+//     transition: {
+//       duration: 2,
+//       // yoyo: Infinity,
+//       ease: 'easeInOut',
+//     },
+//   },
+// };
 const textVariants = {
   hidden: {
     opacity: 0,

@@ -38,22 +38,22 @@ const Text = styled(motion.span)`
   padding-bottom: 0.5rem;
 `;
 
-const pathVariants = {
-  hidden: {
-    opacity: 0,
-    pathLength: 0,
-  },
-  visible: {
-    opacity: 1,
-    pathLength: 1,
+// const pathVariants = {
+//   hidden: {
+//     opacity: 0,
+//     pathLength: 0,
+//   },
+//   visible: {
+//     opacity: 1,
+//     pathLength: 1,
 
-    transition: {
-      duration: 2,
-      delay: 3, // 0
-      ease: 'easeInOut',
-    },
-  },
-};
+//     transition: {
+//       duration: 2,
+//       delay: 3, // 0
+//       ease: 'easeInOut',
+//     },
+//   },
+// };
 const textVariants = {
   hidden: {
     opacity: 0,

@@ -4,16 +4,16 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import React, { useLayoutEffect, useRef } from "react";
 import styled from "styled-components";
 
-import img1 from "../assets/Images/1.webp";
+// import img1 from "../assets/Images/1.webp";
 import img2 from "../assets/Images/2.webp";
-import img3 from "../assets/Images/3.webp";
-import img4 from "../assets/Images/4.webp";
-import img5 from "../assets/Images/5.webp";
-import img6 from "../assets/Images/6.webp";
-import img7 from "../assets/Images/7.webp";
-import img8 from "../assets/Images/8.webp";
-import img9 from "../assets/Images/9.webp";
-import img10 from "../assets/Images/10.webp";
+// import img3 from "../assets/Images/3.webp";
+// import img4 from "../assets/Images/4.webp";
+// import img5 from "../assets/Images/5.webp";
+// import img6 from "../assets/Images/6.webp";
+// import img7 from "../assets/Images/7.webp";
+// import img8 from "../assets/Images/8.webp";
+// import img9 from "../assets/Images/9.webp";
+// import img10 from "../assets/Images/10.webp";
 
 const Section = styled(motion.section)`
   min-height: 100vh;
