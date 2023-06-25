@@ -60,8 +60,8 @@ function App() {
               <Home key="home" />
               <About key="about" />
               <NewArrival key="new arrival" />
-              <Shop key="Shop" />
               <Marquee key="marquee" />
+              <Shop key="Shop" />
               <Footer key="Footer" />
             </AnimatePresence>
           </main>
