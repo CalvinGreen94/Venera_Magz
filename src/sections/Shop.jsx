@@ -69,7 +69,7 @@ const Left = styled.div`
   p {
     font-size: ${(props) => props.theme.fontlg};
     font-weight: 300;
-    width: 80%;
+    width: 20%;
     margin: 0 auto;
   }
 
@@ -137,8 +137,8 @@ const Product = ({ img, title = "", description = "" }) => {
       color="black"
     >
       <img width="400" height="600" src={img} alt={title} />
-      <h1>{title}</h1>
-      <h3>{description}</h3>
+      <h2>{title}</h2>
+      <h4>{description}</h4>
     </Item>
   );
 };
