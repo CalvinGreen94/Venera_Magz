@@ -87,7 +87,7 @@ const Marquee = () => {
             data-scroll-speed="-6"
             data-scroll-target="#direction"
           >
-            is not about embracing the shadows,
+            is about embracing the shadows,
           </span>
         </Banner>
         <Banner data-scroll data-scroll-speed="-2" data-scroll-target="#direction">
@@ -97,7 +97,7 @@ const Marquee = () => {
             data-scroll-speed="-6"
             data-scroll-target="#direction"
           >
-            but exploring the beauty 
+            and exploring the beauty 
           </span>
         </Banner>
         <Banner>
