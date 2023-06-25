@@ -95,7 +95,7 @@ const Logo = () => {
         </svg> */}
 
         <Text variants={textVariants} initial="hidden" animate="visible">
-          Venera Erotica
+          Salem
         </Text>
       </Link>
     </Container>

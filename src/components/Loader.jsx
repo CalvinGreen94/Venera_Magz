@@ -115,7 +115,7 @@ const Loader = () => {
         </g>
       </svg> */}
       <Text variants={textVariants} initial="hidden" animate="visible">
-        Welcome To The Venera Erotica Magazine
+        Welcome To Salem
       </Text>
       <img
           width="1000"
