@@ -118,7 +118,7 @@ const Loader = () => {
         Welcome To The Venera Erotica Magazine
       </Text>
       <img
-          width="800"
+          width="1000"
           height="600"
           className="small-img-1"
           src={img2}
