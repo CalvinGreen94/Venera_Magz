@@ -218,7 +218,7 @@ const Shop = () => {
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img3} title="König Gallery" description="Berlin is home to a variety of churches, but one stands out among the rest. St. Agnes Church in Kreuzberg was constructed entirely of concrete between 1964 and 1967 by architect Werner Düttmann. It served as a Catholic place of worship until 2004, when an Evangelical ‘Freikirche’ moved in. Since 2015, St. Agnes has been home to the dynamic contemporary art of the König Gallery. It is a truly unique and inspiring experience to visit the church and view the art. Visitors can explore the architecture and be amazed by the works of art showcased by the König Gallery. St. Agnes Church is a must-see for any traveler to Berlin."  />
+        <Product img={img3} title="König Gallery" description="Since 2015, St. Agnes has been home to the dynamic contemporary art of the König Gallery. Visitors can explore the architecture and be amazed by the works of art showcased by the König Gallery."  />
         <Product img={img2} title="Ecem" />
         <Product img={img2} title="Ecem" />
         <Product img={img2} title="Ecem" />
