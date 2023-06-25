@@ -160,7 +160,7 @@ const About = () => {
       </Left>
 
       <Right>
-        <img width="400" height="600" src={img2} alt="About Us" />
+        {/* <img width="400" height="600" src={img2} alt="About Us" /> */}
         <img
           width="400"
           height="600"
