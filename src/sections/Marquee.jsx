@@ -77,7 +77,7 @@ const Marquee = () => {
             data-scroll-speed="8"
             data-scroll-target="#direction"
           >
-            Dark Art 
+            Art 
           </span>
         </Banner>
         <Banner data-scroll data-scroll-speed="-2" data-scroll-target="#direction">
@@ -107,7 +107,7 @@ const Marquee = () => {
             data-scroll-speed="6"
             data-scroll-target="#direction"
           >
-           of the erotic within them.
+           of the feelings within them.
           </span>
         </Banner>
         <Banner>
@@ -117,7 +117,7 @@ const Marquee = () => {
             data-scroll-speed="-4"
             data-scroll-target="#direction"
           >
-            ⚸
+            {/* ⚸ */}
           </span>
         </Banner>
         {/* <Banner data-scroll data-scroll-speed="6" data-scroll-target="#direction">
