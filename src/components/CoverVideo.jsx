@@ -158,7 +158,7 @@ const CoverVideo = () => {
           >
             -
           </motion.h1> */}
-          <motion.h1
+          {/* <motion.h1
             variants={item}
             data-scroll
             data-scroll-delay="0.04"
@@ -213,7 +213,7 @@ const CoverVideo = () => {
             data-scroll-speed="4"
           >
             A
-          </motion.h1>
+          </motion.h1> */}
         </div>
         <motion.h2
           style={{ alignSelf: "flex-end" }}
