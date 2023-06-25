@@ -145,14 +145,10 @@ const About = () => {
       </Title> */}
       <br />
       <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-      Welcome to Venera Erotica Magazine! We are a web3 magazine that explores and celebrates the world of dark arts and eroticism. Our mission is to provide our readers with an unprecedented level of creativity, insight, and exploration into the depths of human experience.  
-        <br />
-        <br />
-      </Left>
-
-      <Right>
-        {/* <img width="400" height="600" src={img1} alt="About Us" /> */}
-        {/* <img
+      {/* Welcome to Venera Erotica Magazine! We are a web3 magazine that explores and celebrates the world of dark arts and eroticism. Our mission is to provide our readers with an unprecedented level of creativity, insight, and exploration into the depths of human experience.   */}
+        {/* <br />
+        <br /> */}
+           <img
           width="400"
           height="600"
           className="small-img-1"
@@ -160,7 +156,20 @@ const About = () => {
           alt="About Us"
           data-scroll
           data-scroll-speed="5"
-        /> */}
+        />
+      </Left>
+
+      <Right>
+        {/* <img width="400" height="600" src={img1} alt="About Us" /> */}
+        <img
+          width="400"
+          height="600"
+          className="small-img-1"
+          src={img2}
+          alt="About Us"
+          data-scroll
+          data-scroll-speed="5"
+        />
         <img
           width="400"
           height="600"
