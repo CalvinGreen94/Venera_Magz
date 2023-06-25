@@ -169,13 +169,14 @@ const Footer = () => {
               reviews
             </a>
           </li> */}
+          </ul>
                   We are dedicated to bringing our readers stories, art, film, and other mediums from a variety of dark arts and erotic genres. Our content is designed to entertain and educate, while also helping to redefine the boundaries of sexual expression. At Venera Erotica Magazine, we strive to provide a safe space for all of our readers to explore their sexuality and artistry.
         <br />
         <br />
         Our editorial team is committed to providing quality content that is engaging, thought-provoking, and entertaining. We invite you to join us in our exploration and celebration of the dark arts and eroticism. Thank you for your interest in Venera Erotica Magazine.
           <br />
           <br />
-        </ul>
+        {/* </ul> */}
         <Bottom>
 
           <span
