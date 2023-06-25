@@ -218,8 +218,8 @@ const Shop = () => {
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img3} title="ExRotaprint" description="ExRotaprint is a former production site located in a courtyard in the Wedding area of Berlin. It was constructed in the late 1950s by architect Klaus Kirsten and was once an industrial powerhouse. After it closed down in 1989, the building was taken over by the Real Estate Fund and now operates as a workspace for artists, startups and social groups. Its architecture is heavily influenced by the Brutalism style, making it an impressive yet unique example of industrial design."  />
-        <Product img={img2} title="Ecem" />
+        <Product img={img3} title="Architect: William Pereira" description="William Pereira was a renowned architect who designed Geisel Library in the late 1960s. Geisel Library is an important part of the University of California and was one of the first examples of Brutalist architecture, a style that was on the rise at the time." />
+        {/* <Product img={img2} title="Architect: William Pereira" description="William Pereira was a renowned architect who designed Geisel Library in the late 1960s. Geisel Library is an important part of the University of California and was one of the first examples of Brutalist architecture, a style that was on the rise at the time." /> */}
         <Product img={img2} title="Ecem" />
         <Product img={img2} title="Ecem" />
         <Product img={img2} title="Ecem" />
