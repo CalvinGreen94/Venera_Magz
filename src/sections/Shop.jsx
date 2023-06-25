@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 // import img1 from "../assets/Images/1.webp";
 import img2 from "../assets/Images/2.webp";
-// import img3 from "../assets/Images/3.webp";
+import img3 from "../assets/Images/3.webp";
 // import img4 from "../assets/Images/4.webp";
 // import img5 from "../assets/Images/5.webp";
 // import img6 from "../assets/Images/6.webp";
@@ -126,17 +126,19 @@ const Item = styled(motion.div)`
   }
 `;
 //data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal"
-const Product = ({ img, title = "" }) => {
+const Product = ({ img, title = "", description = "" }) => {
   return (
     // x: 100, y: -100
     <Item
-      initial={{ filter: "grayscale(100%)" }}
-      whileInView={{ filter: "grayscale(0%)" }}
+      initial={{ filter: "grayscale(0%)" }}
+      whileInView={{ filter: "grayscale(100%)" }}
       transition={{ duration: 0.5 }}
       viewport={{ once: false, amount: "all" }}
+      color="black"
     >
       <img width="400" height="600" src={img} alt={title} />
       <h1>{title}</h1>
+      <h3>{description}</h3>
     </Item>
   );
 };
@@ -204,19 +206,19 @@ const Shop = () => {
       <br />
       <br />
         <p>
-          Collect Open Editions
+          Interests of The Week
 
           <br />
           <br />
           {/* Her art pieces are often inspired by her own experiences and the world around her, and she is constantly pushing the boundaries of what is possible with digital art. She is also an avid NFT collector, curating her own collection of rare and unique pieces from the Tezos and Ethereum blockchain. She is passionate about the potential of NFTs and the possibilities they bring to the art world, and is always looking for new and exciting ways to use them. */}
           <br />
           <br />
-          Purchase these open editions
+          Current Interests/ Open Editions
           {/* Truly, a force to be reckoned with. */}
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img2} title="Ecem" />
+        <Product img={img3} title="Mäusebunker" description="n 1981, German architect Gerd Hänska designed the iconic Mäusebunker in Berlin, a Brutalist building with a striking resemblance to a battleship or war bunker. Initially serving as an animal testing laboratory for the Freie Universität Berlin, the building later became a research facility for Charité Universitätsmedizin Berlin. In 2020, Charité applied for the demolition of the Mäusebunker, but the Department of Heritage Protection declared it a historical monument in 2023, saving it from destruction."  />
         <Product img={img2} title="Ecem" />
         <Product img={img2} title="Ecem" />
         <Product img={img2} title="Ecem" />
