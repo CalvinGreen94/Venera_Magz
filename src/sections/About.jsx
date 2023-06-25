@@ -148,10 +148,6 @@ const About = () => {
       Welcome to Venera Erotica Magazine! We are a web3 magazine that explores and celebrates the world of dark arts and eroticism. Our mission is to provide our readers with an unprecedented level of creativity, insight, and exploration into the depths of human experience.  
         <br />
         <br />
-        We are dedicated to bringing our readers stories, art, film, and other mediums from a variety of dark arts and erotic genres. Our content is designed to entertain and educate, while also helping to redefine the boundaries of sexual expression. At Venera Erotica Magazine, we strive to provide a safe space for all of our readers to explore their sexuality and artistry.
-        <br />
-        <br />
-        Our editorial team is committed to providing quality content that is engaging, thought-provoking, and entertaining. We invite you to join us in our exploration and celebration of the dark arts and eroticism. Thank you for your interest in Venera Erotica Magazine.
       </Left>
 
       <Right>
