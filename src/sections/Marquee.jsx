@@ -77,7 +77,17 @@ const Marquee = () => {
             data-scroll-speed="8"
             data-scroll-target="#direction"
           >
-            Dark Art is not about embracing the shadows,
+            Dark Art 
+          </span>
+        </Banner>
+        <Banner data-scroll data-scroll-speed="-2" data-scroll-target="#direction">
+          <span
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="-6"
+            data-scroll-target="#direction"
+          >
+            is not about embracing the shadows,
           </span>
         </Banner>
         <Banner data-scroll data-scroll-speed="-2" data-scroll-target="#direction">
