@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import styled from 'styled-components';
+import img2 from "../assets/Images/1.webp";
 
 const Container = styled(motion.div)`
   position: absolute;
@@ -116,6 +117,15 @@ const Loader = () => {
       <Text variants={textVariants} initial="hidden" animate="visible">
         Welcome To The Venera Erotica Magazine
       </Text>
+      <img
+          width="800"
+          height="600"
+          className="small-img-1"
+          src={img2}
+          alt="About Us"
+          data-scroll
+          data-scroll-speed="5"
+        />
     </Container>
   );
 };
