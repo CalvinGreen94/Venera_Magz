@@ -117,19 +117,19 @@ const Marquee = () => {
             data-scroll-speed="-4"
             data-scroll-target="#direction"
           >
-            -
+            ⚸
           </span>
         </Banner>
-        <Banner data-scroll data-scroll-speed="6" data-scroll-target="#direction">
+        {/* <Banner data-scroll data-scroll-speed="6" data-scroll-target="#direction">
           <span
             data-scroll
             data-scroll-direction="horizontal"
             data-scroll-speed="6"
             data-scroll-target="#direction"
           >
-           -
+           ⚸
           </span>
-        </Banner>
+        </Banner> */}
       </Container>
     </Section>
   );
