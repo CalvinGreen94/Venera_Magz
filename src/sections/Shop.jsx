@@ -218,7 +218,7 @@ const Shop = () => {
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img3} title="Mäusebunker" description="n 1981, German architect Gerd Hänska designed the iconic Mäusebunker in Berlin, a Brutalist building with a striking resemblance to a battleship or war bunker. Initially serving as an animal testing laboratory for the Freie Universität Berlin, the building later became a research facility for Charité Universitätsmedizin Berlin. In 2020, Charité applied for the demolition of the Mäusebunker, but the Department of Heritage Protection declared it a historical monument in 2023, saving it from destruction."  />
+        <Product img={img3} title="Mäusebunker" description="ExRotaprint is a former production site located in a courtyard in the Wedding area of Berlin. It was constructed in the late 1950s by architect Klaus Kirsten and was once an industrial powerhouse. After it closed down in 1989, the building was taken over by the Real Estate Fund and now operates as a workspace for artists, startups and social groups. Its architecture is heavily influenced by the Brutalism style, making it an impressive yet unique example of industrial design."  />
         <Product img={img2} title="Ecem" />
         <Product img={img2} title="Ecem" />
         <Product img={img2} title="Ecem" />
