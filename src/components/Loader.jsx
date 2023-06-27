@@ -10,7 +10,6 @@ const Container = styled(motion.div)`
   right: 0;
   bottom: 0;
 touch-action: none;
-overflow: hidden;
   width: 100vw;
   height: 100vh;
 
