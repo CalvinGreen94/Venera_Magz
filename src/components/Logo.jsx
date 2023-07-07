@@ -95,7 +95,7 @@ const Logo = () => {
         </svg> */}
 
         <Text variants={textVariants} initial="hidden" animate="visible">
-          Salem Digital Magazine
+          Salem
         </Text>
       </Link>
     </Container>
