@@ -16,6 +16,7 @@ export default function useLocoScroll() {
       inertia: 0.8,
       smooth: true,
       getDirection: true,
+      smoothMobile: true, 
       mobile: {
         breakpoint: 0,
         smooth: true,
