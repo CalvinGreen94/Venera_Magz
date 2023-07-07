@@ -57,7 +57,16 @@ export default function useLocoScroll() {
 
     const lsUpdate = () => {
       if (locoScroll) {
-        locoScroll.update();
+        // locoScroll.update();
+        setTimeout(() => {  
+          locoScroll.destroy();
+      }, 0);
+      setTimeout(() => {  
+          locoScroll.init();
+      }, 50);
+      setTimeout(() => {  
+          locoScroll.update();
+      }, 1000);
       }
     };
 
@@ -72,6 +81,7 @@ export default function useLocoScroll() {
         locoScroll.destroy();
         locoScroll = null;
         console.log("Kill", locoScroll);
+        
       }
     };
   });
