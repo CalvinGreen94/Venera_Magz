@@ -17,15 +17,18 @@ export default function useLocoScroll() {
       smooth: true,
       getDirection: true,
       smoothMobile: true, 
-    //   mobile: {
-    //     breakpoint: 0,
-    //     smooth: true,
-    //     getDirection: true,
-    // },
+      direction: "horizontal",
+      smartphone: {
+        // breakpoint: 0,
+        smooth: true,
+        getDirection: true,
+        direction: "horizontal",
+    },
     tablet: {
-      breakpoint: 0,
+      // breakpoint: 0,
       smooth: true,
       getDirection: true,
+      direction: "horizontal",
     }
     });
 
