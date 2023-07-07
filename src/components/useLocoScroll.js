@@ -13,16 +13,15 @@ export default function useLocoScroll() {
 
     let locoScroll = new LocomotiveScroll({
       el: scrollEl,
-      inertia: 0.8,
+      // inertia: 0.8,
       smooth: true,
       getDirection: true,
       smoothMobile: true, 
-      mobile: {
-        breakpoint: 0,
-        smooth: true,
-        getDirection: true,
-
-    },
+    //   mobile: {
+    //     breakpoint: 0,
+    //     smooth: true,
+    //     getDirection: true,
+    // },
     tablet: {
       breakpoint: 0,
       smooth: true,
