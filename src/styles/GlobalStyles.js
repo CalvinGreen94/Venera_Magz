@@ -10,8 +10,6 @@ ${'' /* *{
 }  */}
 
 html.has-scroll-smooth {
-    overflow: hidden;
-    position: fixed;
     left: 0;
     right: 0;
     top: 0;
@@ -23,7 +21,7 @@ html.has-scroll-smooth {
     padding: 0;
 }
 body{
-    font-family: "Sirin Stencil";
+    font-family: "Kaushan Script";
     overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6{

@@ -212,16 +212,24 @@ let t1= gsap.timeline();
   }, []);
 
   return (
+    
     <Section  ref={ref} id="fixed-target" className="new-arrival">
-      <Overlay />
-
-      <Title
+            <Title
         data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal"
       >
         Artist Spotlight
       </Title>
+      <Overlay />
+
+      {/* <Title
+        // data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal"
+      >
+        Artist Spotlight
+      </Title> */}
+      <br />
 
       <Container ref={ScrollingRef}>
+        
         <Photos img={img1} name="Ecem" />
         <Photos img={img1} name="Ecem" />
         <Photos img={img1} name="Ecem" />
@@ -229,6 +237,13 @@ let t1= gsap.timeline();
       </Container>
 
       <Text>
+      {/* <Title
+        data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal"
+      >
+        Artist Spotlight
+      </Title> */}
+      <br />
+        <br />
       Ecem is a sophisticated 3D and 2D digital artist with a great background in Blender and an NFT curator / collector on Tezos and Ethereum. <br />She has a passion for creating unique and innovative art pieces that are both visually stunning and technically impressive. Her work has been featured in various online galleries and publications. 
 
         <br />
