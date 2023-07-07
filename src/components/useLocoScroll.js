@@ -15,10 +15,10 @@ export default function useLocoScroll() {
       el: scrollEl,
       smooth: true,
       mobile: {
-        smooth: false
+        smooth: true
     },
     tablet: {
-        smooth: false
+        smooth: true
     }
     });
 
