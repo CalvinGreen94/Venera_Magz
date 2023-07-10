@@ -117,14 +117,16 @@ const Loader = () => {
         Welcome To Salem
       </Text>
       <img
-          width="1000"
-          height="600"
-          className="small-img-1"
-          src={img2}
-          alt="About Us"
-          data-scroll
-          data-scroll-speed="5"
-        />
+        width="1000"
+        height="600"
+        className="small-img-1"
+        src={img2}
+        alt="About Us"
+        data-scroll
+        data-scroll-speed="5"
+      />
+
+
     </Container>
   );
 };

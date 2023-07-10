@@ -36,11 +36,17 @@ function App() {
             smooth: true,
             // ... all available Locomotive Scroll instance options
             smartphone: {
+              breakpoint: 0,
               smooth: true,
-            },
-            tablet: {
-              smooth: true,
-            },
+              getDirection: true,
+              // direction: "horizontal",
+          },
+          tablet: {
+            breakpoint: 0,
+            smooth: true,
+            getDirection: true,
+            // direction: "horizontal",
+          }
           }}
           watch={
             [
