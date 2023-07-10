@@ -99,7 +99,6 @@ const CoverVideo = () => {
   return (
     <VideoContainer data-scroll>
       <DarkOverlay />
-
       <Title variants={container} initial="hidden" animate="show">
         <div>
           <motion.h1
@@ -144,6 +143,7 @@ const CoverVideo = () => {
           </motion.h1>
           
         </div>
+        <div>
         <motion.h2
           style={{ alignSelf: "flex-end" }}
           variants={item}
@@ -151,12 +151,15 @@ const CoverVideo = () => {
           data-scroll-delay="0.04"
           data-scroll-speed="2"
         >
-          Evolve 
+          {/* Evolve  */}
+          *Mobile Coming Soon*
         </motion.h2>
+        </div>
       </Title>
 
       <video src={MainVideo} type="video/mp4" autoPlay muted loop />
     </VideoContainer>
+
   );
 };
 
