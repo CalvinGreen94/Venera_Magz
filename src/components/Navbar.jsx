@@ -86,10 +86,17 @@ const MenuItems = styled(motion.ul)`
 const Item = styled(motion.li)`
   text-transform: uppercase;
   color: ${(props) => props.theme.text};
-
-  @media (max-width: 40em) {
-    flex-direction:column;
-    padding:0.5rem 0;
+  background-color: #ffffff;
+  /* box-shadow: -1px 3px #501e50; */
+  height: 20px;
+  margin: 0 16px;
+  white-space: nowrap;
+  align-items: center;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  padding: 4px 16px;
+  transition: all 0.1s ease-out;
+  font-weight: 400;
 
   }
 `;

@@ -1,10 +1,10 @@
 import { Box, Center, Icon, Button, Image, Divider, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalCloseButton, Spacer } from '@chakra-ui/react'
 import styles from '../Header.module.css'
-import { useAccount, useEnsAvatar, useDisconnect, useConnect } from 'wagmi'
+import { useAccount, useDisconnect, useConnect } from 'wagmi'
 import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
 import { WalletConnectConnector } from 'wagmi/connectors/walletConnect';
 import { configureChains, } from 'wagmi'
-import { mainnet, goerli,sepolia } from 'wagmi/chains'
+import { mainnet } from 'wagmi/chains'
 import { publicProvider } from 'wagmi/providers/public'
 import { infuraProvider } from 'wagmi/providers/infura'
 import { AiOutlineWallet } from 'react-icons/ai'
@@ -105,7 +105,14 @@ export default function Connect() {
            {/* <CreateUser /> */}
            </Button>
           </Center>}
-          <Button onClick={disconnect}> Disconnect</Button>
+          <Button 
+          rounded="3xl"
+          background="linear-gradient(45deg, #FFD700, #DAA520)" 
+          color="black"
+           _hover={{background: "linear-gradient(45deg, #DAA520, #FFD700)"}} 
+           ml="4"
+           
+          onClick={disconnect}> Disconnect</Button>
 
         </Center>
       </div>

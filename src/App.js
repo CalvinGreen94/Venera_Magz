@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 
 import { AnimatePresence } from "framer-motion";
@@ -14,16 +14,13 @@ import Home from "./sections/Home";
 import Marquee from "./sections/Marquee";
 import NewArrival from "./sections/NewArrival";
 import Shop from "./sections/Shop";
-// import globalStyles from "./styles/globalStyles";
 import { dark } from "./styles/Themes";
 import { MoralisProvider } from "react-moralis"
 import { createClient, configureChains, } from 'wagmi'
 import { publicProvider } from 'wagmi/providers/public'
-import { alchemyProvider } from 'wagmi/providers/alchemy'
 import { infuraProvider } from 'wagmi/providers/infura'
-import { mainnet, goerli, sepolia } from 'wagmi/chains'
+import { mainnet} from 'wagmi/chains'
 import { WagmiConfig } from 'wagmi'
-import { CoinbaseWalletConnector } from 'wagmi/connectors/coinbaseWallet'
 import { InjectedConnector } from 'wagmi/connectors/injected'
 import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
 import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'

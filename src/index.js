@@ -58,7 +58,6 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 ReactDOM.render(
-  <React.StrictMode>
     <BrowserRouter>
       {/* <SSRProvider> */}
         {/* <WagmiConfig client={client}> */}
@@ -71,7 +70,6 @@ ReactDOM.render(
         {/* </WagmiConfig> */}
       {/* </SSRProvider> */}
     </BrowserRouter>,
-   </React.StrictMode>,
   document.getElementById('root')
 );
 
