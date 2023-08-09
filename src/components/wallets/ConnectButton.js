@@ -127,7 +127,7 @@ export default function Connect() {
       color="black"
        _hover={{background: "linear-gradient(45deg, #DAA520, #FFD700)"}} 
        ml="4"
-      >Connect Wallet</Button>
+      >Connect </Button>
       <Modal blockScrollOnMount={false} isOpen={isOpen} onClose={onClose} isCentered size="sm">
         <ModalOverlay />
         <ModalContent rounded="2xl">
