@@ -1,4 +1,4 @@
-.container {
+/* .container {
     background-color: white;
     color: black;
     padding: 10px;
@@ -14,15 +14,15 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-  }
+  } */
 
-  .title {
+  /* .title {
     color: black;
     font-size: 1.5em;
     font-weight: 600;
     align-items: left;
     margin-bottom: 0;
-  }
+  } */
 
   .connect button {
     background-color: #ffffff;
@@ -31,7 +31,7 @@
     margin: 0 16px;
     white-space: nowrap;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 20px;
     border: 2px solid transparent;
     padding: 4px 16px;
     transition: all 0.1s ease-out;

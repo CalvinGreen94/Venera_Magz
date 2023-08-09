@@ -136,7 +136,7 @@ export default function Connect() {
               // justifyContent="left"
               // variant="outline"
               // borderColor="#008080"
-              // _hover={{ borderColor: '#000000' }}
+              _hover={{ borderColor: '#000000' }}
               // rounded="xl"
               // fontWeight="normal"
               // my={2}

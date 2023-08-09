@@ -59,7 +59,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    // <BrowserRouter>
+    <BrowserRouter>
       {/* <SSRProvider> */}
         {/* <WagmiConfig client={client}> */}
           {/* <MoralisProvider appId="ny6Iude7WFwg2QaZtvDK7zQC81e9uKRIeaCkFNxM" serverUrl="https://htogiwbd7il5.usemoralis.com:2053/server"> */}
