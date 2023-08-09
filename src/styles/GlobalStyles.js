@@ -9,6 +9,10 @@ ${'' /* *{
     outline: 1px solid red !important;
 }  */}
 
+html{
+    scroll-behavior: smooth;
+}
+
 html.has-scroll-smooth {
     left: 0;
     right: 0;

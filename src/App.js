@@ -1,3 +1,4 @@
+import React, { Children } from "react";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 
 import { AnimatePresence } from "framer-motion";
@@ -15,11 +16,62 @@ import NewArrival from "./sections/NewArrival";
 import Shop from "./sections/Shop";
 // import globalStyles from "./styles/globalStyles";
 import { dark } from "./styles/Themes";
+import { MoralisProvider } from "react-moralis"
+import { createClient, configureChains, } from 'wagmi'
+import { publicProvider } from 'wagmi/providers/public'
+import { alchemyProvider } from 'wagmi/providers/alchemy'
+import { infuraProvider } from 'wagmi/providers/infura'
+import { mainnet, goerli, sepolia } from 'wagmi/chains'
+import { WagmiConfig } from 'wagmi'
+import { CoinbaseWalletConnector } from 'wagmi/connectors/coinbaseWallet'
+import { InjectedConnector } from 'wagmi/connectors/injected'
+import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
+import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
 
 function App() {
   // useLocoScroll();
   const containerRef = useRef(null);
   const [Loaded, setLoaded] = useState(false);
+  const { provider, webSocketProvider, chains } = configureChains(
+    [mainnet],
+    [
+      // alchemyProvider({ apiKey: 'hu9KmpMxud_8q6Tlskrt42zOpiGy-9xN' }),
+      infuraProvider({ apiKey: '4cb849430aaa4b82bb8360011eb397e9' }),
+      publicProvider()
+    ],
+    // { targetQuorum: 2 },
+  )
+
+  // Necessary for Wagmi Client Provider /* Do Not Delete or client will not work*/
+  const wClient = createClient({
+    autoConnect: true,
+    connectors: [
+      new MetaMaskConnector({ chains }),
+      // new CoinbaseWalletConnector({
+      //   chains,
+      //   options: {
+      //     appName: 'TaurosDAO',
+      //   },
+      // }),
+      new WalletConnectConnector({
+        chains,
+        options: {
+          qrcode: true,
+        },
+      }),
+      new InjectedConnector({
+        chains,
+        options: {
+          name: 'Injected',
+          shimDisconnect: true,
+        },
+      }),
+    ],
+    provider,
+    webSocketProvider,
+  })
+
+
 
   useEffect(() => {
     setTimeout(() => {
@@ -30,6 +82,8 @@ function App() {
   return (
     <>
       {/* <globalStyles /> */}
+      <WagmiConfig client={wClient}>
+      <MoralisProvider appId="ny6Iude7WFwg2QaZtvDK7zQC81e9uKRIeaCkFNxM" serverUrl="https://htogiwbd7il5.usemoralis.com:2053/server">
       <ThemeProvider theme={dark}>
         <LocomotiveScrollProvider
           options={{
@@ -73,6 +127,8 @@ function App() {
           </main>
         </LocomotiveScrollProvider>
       </ThemeProvider>
+      </MoralisProvider>
+      </WagmiConfig>
     </>
   );
 }

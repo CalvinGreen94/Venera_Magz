@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useLocomotiveScroll } from 'react-locomotive-scroll';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import Connect from "./wallets/ConnectButton";
 
 const NavContainer = styled(motion.div)`
   position: absolute;
@@ -156,6 +157,7 @@ const Navbar = () => {
           {' '}
           <Link to="/">Artist Spotlight</Link>
         </Item>
+        <Connect />
       </MenuItems>
     </NavContainer>
   );
