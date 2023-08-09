@@ -64,7 +64,11 @@
     ]
   },
   "browser": {
-    "http": false
+    "crypto": false,
+    "stream": false,
+    "http": false,
+    "https": false,
+    "os": false
   }
 }
 
