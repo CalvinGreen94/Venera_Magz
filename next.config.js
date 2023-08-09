@@ -16,7 +16,13 @@ module.exports = {
           // don't resolve 'fs' module on the client to prevent this error on build --> Error: Can't resolve 'fs'
           config.resolve.fallback = {
               fs: false,
-              stream: require.resolve("stream-browserify")
+              stream: require.resolve("stream-browserify"),
+              crypto: require.resolve("crypto-browserify"),
+              stream: require.resolve("stream-browserify"),
+              os: require.resolve("os-browserify/browser"),
+              http: false,
+              https: require.resolve("https-browserify"),
+              assert: require.resolve("assert/")
             }
       }
 
