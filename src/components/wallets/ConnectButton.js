@@ -1,4 +1,4 @@
-import { Box, Center, Icon, Button, Image, Divider, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalCloseButton, Spacer } from '@chakra-ui/react'
+import { Box, Center, Icon, Button, Image, Divider, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalCloseButton} from '@chakra-ui/react'
 import styles from '../Header.module.css'
 import { useAccount, useDisconnect, useConnect } from 'wagmi'
 import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
@@ -33,11 +33,11 @@ export default function Connect() {
   )
 
   const handleMM = async () => {
-    const { account, chain } = await connectAsync({ connector: new MetaMaskConnector() });
+    await connectAsync({ connector: new MetaMaskConnector() });
   };
 
   const handleWC = async () => {
-    const { account, chain } = await connectAsync({
+    await connectAsync({
       connector: new WalletConnectConnector({
         chains,
         options: {
